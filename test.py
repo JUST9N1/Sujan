@@ -1,4 +1,5 @@
 import random
+from typing_extensions import get_overloads
 
 def guess(x):
     count = 0
@@ -17,4 +18,3 @@ def guess(x):
 
 choice = int(input("Enter a number: "))
 guess(choice)
-
